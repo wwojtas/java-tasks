@@ -1,10 +1,10 @@
-package Streams.CollectMethod;
+package Streams.MainToSet;
 
 import java.util.ArrayList;
-import java.util.List;
+import java.util.Set;
 import java.util.stream.Collectors;
 
-public class MainCollect {
+public class MainToSet {
     public static void main(String[] args) {
 
         ArrayList<Car> cars = new ArrayList<>();
@@ -15,14 +15,14 @@ public class MainCollect {
         cars.add(new Car("GMC", 170, 100_000, 3));
         cars.add(new Car("Porsche", 300, 800_000, 5));
         cars.add(new Car("BMW", 240, 300_000, 5));
+        cars.add(new Car("Citroen", 180, 200_000, 3));
+        cars.add(new Car("Citroen", 180, 200_000, 3));
 
-        List<Car> list =  cars.stream()
+        Set<Car> set =  cars.stream()
                 .filter(car -> car.price < 300_000)
-                .collect(Collectors.toList());
-        ArrayList<Car> carArrayList = new ArrayList<>(list);
-        carArrayList.forEach(car -> System.out.println(car));
+                .collect(Collectors.toSet());
 
-
+        set.forEach(car -> System.out.println(car));
 
     }
 }
