@@ -17,6 +17,8 @@ public class CollectorsToMap {
         cars.add(new Car("Porsche", 300, 800_000, 5));
         cars.add(new Car("BMW", 240, 300_000, 5));
 
+        // Pierwszy przykład
+
 //        // Collectors to Map
 //        Map<String, Car> carsMap = cars.stream()
 //                .collect(Collectors.toMap(car -> car.name, car -> car));
@@ -25,6 +27,8 @@ public class CollectorsToMap {
 //        // odwołanie się do danego elementu
 //        Car car1 = carsMap.get("GMC");
 //        System.out.println(car1);
+
+        // Drugi przykład
 
         // Map i referencja do metody
         List<Integer> carPrices = cars.stream()
