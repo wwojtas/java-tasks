@@ -19,9 +19,9 @@ public class MainReduceIterate {
 
         // reduce
 
-//        int totalPrice = cars.stream()
-//                .reduce(0, (subtotal, car) -> subtotal + car.getPrice(), Integer::sum);
-//        System.out.println(totalPrice);
+        int totalPrice = cars.stream()
+                .reduce(0, (subtotal, car) -> subtotal + car.getPrice(), Integer::sum);
+        System.out.println(totalPrice);
 
         // iterate
 
