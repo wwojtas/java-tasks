@@ -1,4 +1,4 @@
-package Threads.RunnableExample;
+package Threads.Runnable;
 
 class RunnableClass2 extends RunnableClass implements Runnable{
 

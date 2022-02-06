@@ -1,7 +1,5 @@
 package Threads.RaceConditionSolved;
 
-import Threads.RaceConditionExample.MainRaceCondition;
-
 public class MainRaceConditionSolved {
 
     public int counter = 0;

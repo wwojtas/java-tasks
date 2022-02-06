@@ -1,4 +1,4 @@
-package Threads.ThreadExtendExample;
+package Threads.ThreadExtend;
 
 public class TestNewThread extends Thread {
 

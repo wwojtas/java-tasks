@@ -1,4 +1,4 @@
-package Threads.RaceConditionExample;
+package Threads.RaceCondition;
 
 public class MainRaceCondition {
 

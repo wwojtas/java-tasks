@@ -1,4 +1,4 @@
-package Threads.ThreadExtendExample;
+package Threads.ThreadExtend;
 
 public class ThreadExtendExample {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package Threads.RunnableExample;
+package Threads.Runnable;
 
 public class MainRunnableExample {
     public static void main(String[] args) {
