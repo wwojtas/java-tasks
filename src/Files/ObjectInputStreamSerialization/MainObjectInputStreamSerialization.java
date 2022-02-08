@@ -7,6 +7,9 @@ import java.io.*;
 public class MainObjectInputStreamSerialization {
     public static void main(String[] args) throws IOException {
 
+
+        // odczyt z pliku obiektów
+
         ObjectInputStream in = new ObjectInputStream(
                 new BufferedInputStream( new FileInputStream("files\\cars.dat")));
         try{
