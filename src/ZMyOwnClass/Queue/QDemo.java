@@ -10,18 +10,33 @@ public class QDemo {
 
         System.out.println("Używam kolejki bigQ do przechowywania alfabetu");
         // umieszcza znaki alfabetu w bigQ
-        for (int j = 0; j < 26; j++) {
-            bigQ.put((char) ('A' + j));
+        for ( i = 0; i < 26; i++) {
+            bigQ.put((char) ('A' + i));
         }
         //pobiera elementy bigQ i wyświetla je
         System.out.println("Zawartość kolejki bigQ: ");
-        for (int j = 0; j < 26; j++) {
+        for ( i = 0; i < 26; i++) {
             ch = bigQ.get();
             if (ch != (char) 0) System.out.println(ch);
         }
         System.out.println("\n");
 
+        System.out.println("używam kolejki smallQ do wygenerowania błędów");
+        // Uzywa smallQ do wygenerowania błędów
+        for ( i = 0; i < 5; i++) {
+            System.out.println("Probuję umieścić w kolejce znak " + (char)('Z' - i ));
+            smallQ.put((char)('Z' - i) );
+            System.out.println();
+        }
         System.out.println();
+        // następny błąd kolejki smallQ
+        System.out.println("Zawartość kolejki smallQ");
+        for ( i = 0; i < 5; i++) {
+            ch = smallQ.get();
+            if( ch != (char) 0) System.out.println(ch);
+        }
+
+
 
     }
 }
