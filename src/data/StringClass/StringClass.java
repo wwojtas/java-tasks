@@ -37,8 +37,8 @@ public class StringClass {
         char arr[] =  str.toCharArray();
         System.out.println(arr);
 
-        Integer value = new Integer(123);
-        System.out.println(value.toString());
+//        Integer value = new Integer(123);
+//        System.out.println(value.toString());
 
 
 
