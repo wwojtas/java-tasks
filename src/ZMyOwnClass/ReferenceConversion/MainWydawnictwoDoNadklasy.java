@@ -1,6 +1,6 @@
 package ZMyOwnClass.ReferenceConversion;
 
-public class MainWydawnictwo {
+public class MainWydawnictwoDoNadklasy {
     public static void main(String[] args) {
 
 
