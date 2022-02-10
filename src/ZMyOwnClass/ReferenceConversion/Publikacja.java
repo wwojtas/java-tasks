@@ -10,6 +10,7 @@ public class Publikacja {
         this.cena = cena;
     }
 
+
     public String podajTytul() {
         return tytul;
     }

@@ -9,6 +9,7 @@ public class Wydawnictwo {
                 // konwersja referencyjna przy zwracaniu wyniku
                 return new Ksiazka("Barteczko", "Java", 56.45);
 
+                
             case 2: // utwórz czasopismo
                 // konwersja referencyjna przy zwracaniu wyniku
                 return new Czasopismo(11, "PC Format", 9.50);

@@ -7,6 +7,7 @@ public class MainWydawnictwoWDol {
         String autor1, autor2;
         Ksiazka ksiaz;
 
+
         publ1 = Wydawnictwo.utworzPublikacje(1);
         publ2 = Wydawnictwo.utworzPublikacje(2);
 
