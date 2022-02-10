@@ -7,8 +7,7 @@ public class MainInterfaceStaticFinal {
         parrot.fly(); // implementuje fly po interface Flying
         parrot.searchForFood();  // implementuje po interface Eating
         System.out.println(   parrot.getDefaultWingspan());  // implementuje fly po interface Flying
-        System.out.println("Domyślna liczba skrzydeł: "
-                + Flying.getDefaultNumWings());
+        System.out.println("Domyślna liczba skrzydeł: " + Flying.getDefaultNumWings());
 
 
     }
