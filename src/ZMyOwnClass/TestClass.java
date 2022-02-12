@@ -19,7 +19,6 @@ public class TestClass {
 //        String reference2 = reference1;
 //        System.out.println("reference1 == reference2: " + (reference1 == reference2));
 
-        List listOfUndefinedObjects = new ArrayList();
-        List<Integer> listOfIntegers = (List<Integer>) listOfUndefinedObjects;
+        System.out.println( (10 % 2 ) == 0);
     }
 }
