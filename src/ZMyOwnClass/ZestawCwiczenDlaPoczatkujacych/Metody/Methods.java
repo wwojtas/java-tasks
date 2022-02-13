@@ -55,6 +55,7 @@ public class Methods {
 
     // 8. a2 + b2 = c2
     public boolean buildRectangularTriangle(double a, double b, double c){
+        if(a <= 0 || b <= 0 || c <= 0 ) return false;
         double a2 = Math.pow(a, 2);
         double b2 = Math.pow(b, 2);
         double c2 = Math.pow(c, 2);
