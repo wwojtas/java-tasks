@@ -62,9 +62,16 @@ public class ArrayFactory {
     }
 
     // 6 - liczba w formie binarnej
-//    public int numberToBinary(int x){
-//
-//    }
+    public static void printBinary(int number) {
+        String binaryReversed = "";
+        while (number > 0) {
+            // This is isn't optimal ;)
+            // Read about StringBuilder/StringBuffer
+            binaryReversed += number % 2;
+            number /= 2;
+        }
+//        System.out.println(reverse(binaryReversed));
+    }
 
     // 7. palindrom
 
