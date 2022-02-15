@@ -15,9 +15,11 @@ public class HtmlTag implements AutoCloseable {
         System.out.println(tekst);
     }
 
+
     @Override
     public void close() {
         System.out.println("</" + str + ">");
+        System.out.println(" ");
 
     }
 
