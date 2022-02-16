@@ -8,7 +8,6 @@ public class SortUsersList {
 
         List<String> words = new LinkedList<>();
 
-
         Scanner scanner = new Scanner(System.in);
         for (int i = 0; i < 5; i++) {
             System.out.println("Podaj wyraz: ");
@@ -34,5 +33,4 @@ public class SortUsersList {
 
 
     }
-
 }
