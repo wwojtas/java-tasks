@@ -16,7 +16,6 @@ public class OuterClass {
         OuterClass.InnerClass instance1  = outerClass.instantiate();
         OuterClass.InnerClass instance2  = outerClass.new InnerClass();
 
-
     }
 
 
