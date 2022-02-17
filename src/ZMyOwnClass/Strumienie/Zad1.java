@@ -3,7 +3,6 @@ package ZMyOwnClass.Strumienie;
 import java.math.BigDecimal;
 import java.util.Arrays;
 import java.util.List;
-import java.util.stream.Stream;
 
 public class Zad1 {
     public static void main(String[] args) {
