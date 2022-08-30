@@ -1,5 +1,6 @@
 package ZMyOwnClass.ZestawCwiczenDlaPoczatkujacych.Interfejsy;
 
+import java.util.ArrayList;
 import java.util.Scanner;
 
 public class MainFigure {
@@ -27,6 +28,10 @@ public class MainFigure {
             System.out.println(f.getArea());
             System.out.println(f.getPetrimeter());
         }
+
+        ArrayList<String> arrayList = new ArrayList<String>();
+//        arrayList.stream().map();
+
 
 
     }

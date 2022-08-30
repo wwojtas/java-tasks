@@ -1,6 +1,6 @@
 package programowanieSieciowe;
 
-import org.json.JSONObject;
+//import org.json.JSONObject;
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
@@ -31,15 +31,15 @@ public class JSONExchangeRatesExample {
         String jsonStr = stringBuffer.toString();
         System.out.println(jsonStr);
 
-        JSONObject jsonObject = new JSONObject(jsonStr);
-        JSONObject rates = jsonObject.getJSONObject("rates");
-        String dateStr = jsonObject.getString("date");
-        System.out.println("Rates date: " + dateStr);
-        System.out.println("Base: " + jsonObject.getString("base"));
-
-        Map<String, Object> objectMap = rates.toMap();
-
-        objectMap.forEach((k,v)-> System.out.println(k + " : " + v));
+//        JSONObject jsonObject = new JSONObject(jsonStr);
+//        JSONObject rates = jsonObject.getJSONObject("rates");
+//        String dateStr = jsonObject.getString("date");
+//        System.out.println("Rates date: " + dateStr);
+//        System.out.println("Base: " + jsonObject.getString("base"));
+//
+//        Map<String, Object> objectMap = rates.toMap();
+//
+//        objectMap.forEach((k,v)-> System.out.println(k + " : " + v));
 
 
         reader.close();

@@ -19,6 +19,8 @@ public class MainCollect {
         List<Car> list =  cars.stream()
                 .filter(car -> car.price < 300_000)
                 .collect(Collectors.toList());
+        System.out.println(list);
+        System.out.println("------");
         ArrayList<Car> carArrayList = new ArrayList<>(list);
         carArrayList.forEach(car -> System.out.println(car));
 
