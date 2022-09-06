@@ -1,6 +1,5 @@
 package programowanieSieciowe;
 
-import java.io.BufferedReader;
 import java.io.BufferedWriter;
 import java.io.IOException;
 import java.io.OutputStreamWriter;
@@ -12,7 +11,7 @@ import java.util.concurrent.Executors;
 public class MultiThreadServerSocket {
     public static void main(String[] args) throws IOException {
 
-        ServerSocket serverSocket = new ServerSocket(30);
+        ServerSocket serverSocket = new ServerSocket(300);
         ExecutorService executorService = Executors.newFixedThreadPool(10);
         while (true) {
             final Socket socket = serverSocket.accept();
